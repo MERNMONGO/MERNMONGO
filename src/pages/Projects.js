@@ -14,6 +14,11 @@ export default function Projects() {
       <Link to = "https://grocer-frontend.onrender.com/"> <p>Try it here!</p></Link>
       
       <Link to = "https://github.com/MERNMONGO/Store"> <p>Contribute towards code</p></Link>
+      <br></br>
+
+      <h2>API projects </h2>
+      <p>This project utilized API</p>
+      
     </div>
   );
 }
