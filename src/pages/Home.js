@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <div className ="text-center"> 
-      <h1>Welcome to 's Portfolio</h1>
+      <h1>Portfolio</h1>
       <p>
-         is a software developer specializing in Web Development.
+         I'm an avid learner and software developer  specializing in Web Development.
       </p>
       <br></br>
       <p>
