@@ -25,7 +25,8 @@ export default function Home() {
             LinkedIn
           
         </Link>
-        <Link to="https://github.com/" >
+       
+        <Link to="https://github.com/MERNMONGO" >
           
             <img
               src={
@@ -36,9 +37,19 @@ export default function Home() {
             GitHub
           
         </Link>
+        <br></br>
+        <br></br>
     
-       
-        Resume
+        <button
+     
+      
+        onClick={() =>
+          window.open('https://drive.google.com/file/d/1LIqtMHb0tTTrZVxpYQWhIu8FcrecFozZ/view?usp=sharing'
+            
+          )
+        }
+      >Resume</button>
+        
       
     </div>
   );
