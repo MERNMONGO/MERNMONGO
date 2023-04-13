@@ -11,6 +11,7 @@ export default function About() {
      <div className = "text-center">
      <h1>About</h1>
      <h2>Showcase of my Work</h2>
+     <p>Full Stack Software Developer</p>
      </div>
   );
 }
