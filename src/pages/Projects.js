@@ -14,7 +14,7 @@ export default function Projects() {
       <p>Home Page of App</p>   
       <img className = "project"src = "https://github.com/MERNMONGO/Store/raw/main/Landing.png "></img>
       <p>Example of Grocery Sorter</p>
-      <img className = "project"src = "https://github.com/MERNMONGO/Store/blob/main/DisplayExample.png"></img>
+      <img className = "project"src = "https://raw.githubusercontent.com/MERNMONGO/Store/main/DisplayExample.png" alt ="example of app"></img>
       <Link to = "https://grocer-frontend.onrender.com/"> <p>Try it here!</p></Link>
       
       <Link to = "https://github.com/MERNMONGO/Store"> <p>Contribute towards code</p></Link>
