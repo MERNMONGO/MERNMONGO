@@ -11,9 +11,11 @@ export default function Projects() {
       <br></br>
      
       <img className = "project"src = "https://github.com/MERNMONGO/Store/raw/main/Landing.png "></img>
+      <img className = "project"src = "https://github.com/MERNMONGO/Store/blob/main/DisplayExample.png"></img>
       <Link to = "https://grocer-frontend.onrender.com/"> <p>Try it here!</p></Link>
       
       <Link to = "https://github.com/MERNMONGO/Store"> <p>Contribute towards code</p></Link>
+   
       <br></br>
 
       <h2>API projects </h2>
