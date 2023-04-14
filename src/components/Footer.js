@@ -2,9 +2,21 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="footer">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-bottom ">
 
-    </div>
+
+  
+    
+    
+      <ul className="navbar-nav">
+        <li className="nav-item">
+          <Link className="nav-link"to="/">Contact</Link>
+        </li>
+       
+      </ul>
+    
+
+</nav>
   );
 }
 
