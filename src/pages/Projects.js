@@ -9,8 +9,11 @@ export default function Projects() {
       <h2>Auto Grocery Sorter</h2>
       <h3>Full Stack App using MERN</h3>
       <br></br>
-     
+    
+  
+      <p>Home Page of App</p>   
       <img className = "project"src = "https://github.com/MERNMONGO/Store/raw/main/Landing.png "></img>
+      <p>Example of Grocery Sorter</p>
       <img className = "project"src = "https://github.com/MERNMONGO/Store/blob/main/DisplayExample.png"></img>
       <Link to = "https://grocer-frontend.onrender.com/"> <p>Try it here!</p></Link>
       
