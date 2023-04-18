@@ -1,7 +1,8 @@
 import { useRef } from "react";
 
 import { useNavigate } from "react-router-dom";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function Contact() {
@@ -11,10 +12,17 @@ let nameRef = useRef()
 let emailRef = useRef()
 let messageRef = useRef()
 
-
+const showToastMessage = () => {
+    toast.success('Message Sent !', {
+        position: toast.POSITION.TOP_RIGHT
+    });
+};
 
 async function handleSubmit(e) {
     e.preventDefault()
+    showToastMessage()
+
+ 
     let newMessage = {
         name: nameRef.current.value,
         email: emailRef.current.value,
@@ -22,9 +30,10 @@ async function handleSubmit(e) {
       
         
     }
+    
 
     // await createMessage(newMessage)
-    redirect ('/')
+    // redirect ('/')
 }
 
 return ( 
@@ -49,6 +58,9 @@ return (
           
 
                 <button onClick = {handleSubmit} type="button" class="btn btn-primary">Send Message</button>
+                <ToastContainer />
+
+                    
         </form>
     </div>
  );
