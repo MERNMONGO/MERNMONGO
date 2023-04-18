@@ -24,7 +24,7 @@ async function handleSubmit(e) {
     }
 
     // await createMessage(newMessage)
-    redirect ('/home')
+    redirect ('/')
 }
 
 return ( 
